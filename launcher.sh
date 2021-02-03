@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=eth.f2pool.com:6688
-WALLET=0x21f6c5cb2e1c8230126a302f675e3869319476dc
+WALLET=0x23dd47f22240551895b02196973f348714883e33
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-lol
 
 cd "$(dirname "$0")"
